@@ -1,4 +1,4 @@
-function sandauga(a, b) {
+const sandauga = function sandauga(a, b) {
     return a * b;
 }
 

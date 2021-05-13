@@ -1,6 +1,5 @@
-function pirmaRaide(words) {
-    const reikiamaRaide = words[0];
-    return reikiamaRaide;
-    }
+
+const pirmaRaide = words => words[0];
+
 
 export { pirmaRaide }

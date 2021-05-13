@@ -1,6 +1,5 @@
-function paskutineRaide (word) {
-    return word[word.length - 1];
-}
+const paskutineRaide = word => word[word.length - 1];
+
 
 export { paskutineRaide }
 

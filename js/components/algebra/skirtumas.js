@@ -1,4 +1,4 @@
-function skirtumas(a, b) {
+const skirtumas = function skirtumas(a, b) {
     return a - b;
 }
 

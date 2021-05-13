@@ -1,4 +1,4 @@
-function dalyba (a, b) {
+const dalyba = function dalyba (a, b) {
     return a / b;
 
 }
