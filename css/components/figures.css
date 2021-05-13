@@ -1,0 +1,31 @@
+.kvadratas {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border: 10px solid #ccc;
+    border-radius: 4px;
+    background-color: #ddd;
+    box-shadow: 0 4px 12px #0002;
+    transition: all 1s;
+  }
+  .kvadratas:hover {
+    transform: rotate(30deg);
+  }
+  
+  .apskritimas {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 40px;
+    border: 10px solid #36f;
+    border-radius: 50%;
+    background-color: #47e;
+    box-shadow: 0 4px 12px #0002;
+    transition: all 1s;
+  }
+  .apskritimas:hover {
+    width: 200px;
+    height: 200px;
+    background-color: #f36;
+  }
