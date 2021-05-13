@@ -19,22 +19,24 @@ function vidurineRaide('labas') - 'b'
 function paskutineRaide('labas') -> 's'
 */
 
+import { pirmaRaide } from "./pirmaRaide.js";
+import { vidurineRaide } from "./vidurineRaide.js";
+import { paskutineRaide } from "./paskutineRaide.js";
 
 
-function vientisasTekstas(raides) {
-    let vientisasTekstas = 0;
-    for (let i; i < vientisasTekstas.length; i++);
-       
+//IMPORT
+
+function vientisasTekstas(words) {
+    let answer = '';
+
+    for (let i=0; i < words.length; i++) {
+        const word = words[i];
+        answer += pirmaRaide(word);
+       answer += vidurineRaide(word);
+       answer += paskutineRaide(word);
+    }
+    return answer
 }
 
+export { vientisasTekstas }
 
-
-
-const s1 = vientisasTekstas(['labas', 'rytas']);
-console.log(s1, '->', 'lbsrts');
-
-const s2 = vientisasTekstas(['mano', 'namas', 'yra', 'geltonas']);
-console.log(s2, '->', 'maonmsyragts');
-
-const s3 = vientisasTekstas(['as', 'i', 'ten']);
-console.log(s3, '->', 'aasiiiten');
